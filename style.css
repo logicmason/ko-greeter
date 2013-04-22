@@ -1,0 +1,16 @@
+body {
+  padding-top: 80px;
+}
+
+.top {
+  position: fixed;
+  top:0px;
+  text-align: right;
+  padding-right: 50px;
+  font-size: 24px;
+}
+
+p {
+  -webkit-transform: scale();
+  text-align: center;
+}

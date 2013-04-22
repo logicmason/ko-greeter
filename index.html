@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KO!</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <div class="top">Knockout</div>
+  <p data-bind="text: greeting, style: { webkitTransform: intro }"></p>
+  <div>your name: <input data-bind="value: name, valueUpdate: 'afterkeyup'"/></div>
+  <div>twist: (degrees) <input data-bind="value: twist"/></div>
+  <div>zoom: (percentage) <input data-bind="value: zoom"/></div>
+
+  <script type='text/javascript' src='knockout-2.2.1.js'></script>
+  <script type='text/javascript' src='stuff.js'></script>
+</body>
+</html>
